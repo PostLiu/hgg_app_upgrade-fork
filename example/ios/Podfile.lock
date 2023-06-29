@@ -1,0 +1,22 @@
+PODS:
+  - Flutter (1.0.0)
+  - hgg_app_upgrade (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - hgg_app_upgrade (from `.symlinks/plugins/hgg_app_upgrade/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  hgg_app_upgrade:
+    :path: ".symlinks/plugins/hgg_app_upgrade/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  hgg_app_upgrade: ce11a2b1f2ab0f42ef671b5f76803d69f2104b13
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.10.1
