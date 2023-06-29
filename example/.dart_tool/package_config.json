@@ -173,10 +173,10 @@
       "name": "hgg_app_upgrade_example",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-06-29T02:19:55.623006Z",
+  "generated": "2023-06-29T02:28:34.023769Z",
   "generator": "pub",
   "generatorVersion": "3.0.5"
 }

@@ -204,9 +204,9 @@ class _SimpleAppUpgradeWidget extends State<SimpleAppUpgradeWidget> {
           bottomRight: Radius.circular(widget.borderRadius),
           bottomLeft: Radius.circular(widget.borderRadius));
     }
-    var _okBackgroundColors = widget.okBackgroundColors;
+    var okBackgroundColors = widget.okBackgroundColors;
     if (widget.okBackgroundColors?.length != 2) {
-      _okBackgroundColors = [
+      okBackgroundColors = [
         Theme.of(context).primaryColor,
         Theme.of(context).primaryColor
       ];
@@ -218,7 +218,7 @@ class _SimpleAppUpgradeWidget extends State<SimpleAppUpgradeWidget> {
               : LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
-                  colors: [_okBackgroundColors![0], _okBackgroundColors[1]]),
+                  colors: [okBackgroundColors![0], okBackgroundColors[1]]),
           borderRadius: borderRadius),
       child: InkWell(
         borderRadius: borderRadius,
@@ -231,7 +231,7 @@ class _SimpleAppUpgradeWidget extends State<SimpleAppUpgradeWidget> {
               style: widget.okTextStyle ??
                   TextStyle(
                     color:
-                        widget.isDark ? _okBackgroundColors![0] : Colors.white,
+                        widget.isDark ? okBackgroundColors![0] : Colors.white,
                     fontSize: 18,
                   )),
         ),
